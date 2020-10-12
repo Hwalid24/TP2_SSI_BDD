@@ -1,0 +1,33 @@
+form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:300px; 
+    height:200px; 
+    margin-left:-150px; 
+    margin-top:-100px; 
+}
+.c100{
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+}
+
+
+label{
+    display: inline-block;
+    min-width: 25%;
+}
+input[type="submit"]{
+    color: RGB(200,100,0);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 2px solid RGB(200,100,0);
+}
+input[type="submit"]:hover{
+    background-color: RGB(200,100,0);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px #777;
+}
